@@ -1,5 +1,6 @@
 let display = document.getElementById("textout");
 let currentInput = "";
+let check=false
 // to get the values
 function appendValue(value) {
     let operators = ['+', '-', 'x', '÷', '%'];
@@ -15,6 +16,9 @@ function appendValue(value) {
 
     currentInput += value;
     display.innerText = currentInput;
+
+    checkequal()
+    check=false
 }
 // to clear the display
 function clearDisplay() {
@@ -37,7 +41,14 @@ function calculate() {
     } catch {
         display.innerText = "Error";
     }
+    check=true
 }
+// to stop appending numbers after operation
+function checkequal(){
+    if (check==true)
+        {currentInput = '';
+            display.innerText = currentInput;}
+    }
 window.onload = function () {
     display = document.getElementById("output");
 };
