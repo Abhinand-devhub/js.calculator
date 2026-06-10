@@ -4,7 +4,7 @@ A responsive calculator built using **HTML**, **CSS**, and **JavaScript**. The p
 
 ## 📸 Preview
 
-![Calculator Screenshot](calculator.png)
+![Calculator Screenshot](html&js calculator.png)
 
 ## ✨ Features
 
