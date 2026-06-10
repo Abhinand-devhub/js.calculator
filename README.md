@@ -2,6 +2,10 @@
 
 A responsive calculator built using **HTML**, **CSS**, and **JavaScript**. The project features a modern dark-themed user interface with support for basic arithmetic operations and percentage calculations.
 
+## 📸 Preview
+
+![Calculator Screenshot](calculator.png)
+
 ## ✨ Features
 
 - ➕ Addition
